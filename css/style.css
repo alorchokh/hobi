@@ -922,7 +922,7 @@ label {
 	padding: 15px 30px;
 	margin-top: 50px;
 }
-.single-testimonial {
+.owl-item {
 	background: #fff;
 	border: 2px solid #DADAEB;
 	padding: 50px;
@@ -930,8 +930,9 @@ label {
 	overflow: hidden;
 	margin-left: 20px;
 	margin-right: 20px;
+	overflow: visible;
 }
-.single-testimonial::before {
+.owl-item::before {
 	position: absolute;
 	content: "";
 	border: 2px solid #DADAEB;
@@ -942,17 +943,17 @@ label {
 	z-index: -2;
 	background: #fff;
 }
-.single-testimonial::after {
+.owl-item::after {
 	position: absolute;
 	content: "";
 	border: 2px solid #DADAEB;
 	padding: 23px;
 	width: 71%;
-	height: 110%;
+	height: 96%;
 	margin-left: 1%;
 	z-index: -3;
 	background: #fff;
-	top: 0;
+	top: 60px;
 }
 .review-testimonal i {
 	color: #ffae00;
